@@ -1,0 +1,110 @@
+/* reset browser styles */
+* {
+  box-sizing: border-box; 
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;/*?*/
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+/*结构内容的修饰*/
+body {
+	padding-top:5px;
+	background-image: url(../images/bg_page.png);
+}
+.nav {
+	padding: 5px 2px 5px 15px; 
+	margin-bottom: 2px;
+	border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    background-color: #E1EDEB;
+}
+.main {
+	width: 75%;
+	margin: 0 auto;
+	padding: 5px 2px 5px 2px;
+	margin-bottom: 2px;
+}
+.main .content {
+	padding: 5px 0 5px 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    background-color: #E1EDEB;
+}
+.main .content h2 {
+	margin-bottom: 5px;
+}
+.footer{
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 2px;
+	border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    background-color: #E1EDEB;
+}
+/*弹性盒*/
+.nav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.nav a {
+  width: 15%;
+}
+.header {
+	margin-right: auto;
+}
+/*文本内容的修饰*/
+.header h1 {
+	font-family: 'Varela Round', 'Arial Black', serif;
+	font-size: 2.2em;
+	color: #6A94CC;		
+}
+.nav {
+	font-family: 'Varela Round', 'Arial Black', serif;
+	font-size: 1.5em;
+	color: #6A94CC;
+}
+.content h2 {
+	font-family: 'Varela Round', 'Arial Black', serif;
+	font-size: 2em;
+}
+.content p {
+	font-family: "Palatino Linotype", Baskerville, serif;
+	font-size: 1.25em;
+  	color: #616161;
+  	line-height: 150%;
+}
+.footer p {
+	font-family: "Palatino Linotype", Baskerville, serif;
+	font-size: 1.2em;
+	color: #616161;
+  	line-height: 150%;
+}
