@@ -17,9 +17,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
-	font-family: 'alex_brushregular';
-	font-weight: normal;
-    font-style: normal;
 }
 ol { 
 	padding-left: 1.4em;
@@ -100,13 +97,17 @@ body {
 	font-size: 2em;
 }
 .content p {
-	font-family: "Palatino Linotype", Baskerville, serif;
+	font-family: "alex_brushregular", "Palatino Linotype", Baskerville, serif;
+	font-weight: normal;
+    font-style: normal;
 	font-size: 1.25em;
   	color: #616161;
   	line-height: 150%;
 }
 .footer p {
-	font-family: "Palatino Linotype", Baskerville, serif;
+	font-family: "alex_brushregular", "Palatino Linotype", Baskerville, serif;
+	font-weight: normal;
+    font-style: normal;
 	font-size: 1.2em;
 	color: #616161;
   	line-height: 150%;
