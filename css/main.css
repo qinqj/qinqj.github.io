@@ -83,11 +83,11 @@ body {
 }
 /*文本内容的修饰*/
 body {
-		font-family:Tahoma,Arial,
-				Roboto,"Droid Sans",
-				"Helvetica Neue",
-				"Droid Sans Fallback","Heiti SC",
-				"Hiragino Sans GB",Simsun,sans-self;
+		font-family: Tahoma, Arial,
+				 Roboto, "Droid Sans",
+				 "Helvetica Neue",
+				 "Droid Sans Fallback", "Heiti SC",
+				 "Hiragino Sans GB", Simsun, sans-self;
 		font-weight: normal;
 }
 .header h1 {
