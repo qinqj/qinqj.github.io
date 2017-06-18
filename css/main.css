@@ -33,12 +33,6 @@ table {
 /* end reset browser styles */
 /*结构内容的修饰*/
 body {
-	font-family:Tahoma,Arial,
-				Roboto,"Droid Sans",
-				"Helvetica Neue",
-				"Droid Sans Fallback","Heiti SC",
-				"Hiragino Sans GB",Simsun,sans-self;
-	font-weight: normal;
 	padding-top:5px;
 	background-image: url(../images/bg_page.png);
 }
@@ -88,6 +82,14 @@ body {
 	margin-right: auto;
 }
 /*文本内容的修饰*/
+body {
+		font-family:Tahoma,Arial,
+				Roboto,"Droid Sans",
+				"Helvetica Neue",
+				"Droid Sans Fallback","Heiti SC",
+				"Hiragino Sans GB",Simsun,sans-self;
+		font-weight: normal;
+}
 .header h1 {
 	font-size: 2.2em;
 	color: #6A94CC;		
