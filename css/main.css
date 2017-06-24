@@ -1,0 +1,70 @@
+a {
+	text-decoration: none;
+	color: blue;
+}
+h1, h2 {
+	padding: 0;
+	margin: 0;
+}
+body {
+	color: #333;
+}
+.container {
+    box-shadow: 0 0 2px 0px #2196F3;
+	padding: 20px;
+
+}
+.container h1, .container a {
+	font-size: 1.2em;
+	display: inline-block;
+	color: gray;
+}
+.container h1 {	
+	font-weight: normal;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.container a {
+	width: 4em;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+.main {
+	max-width: 800px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sticky, .common {
+	padding: 1.6em;
+	margin: 1.5em 0;
+    box-shadow: 0px 0px 2px 0px #2196F3;
+}
+.sticky time, .common time {
+	color: gray;
+	display: block;
+	padding-bottom: 1em;
+}
+.page_button {
+	text-align: center;
+	color: gray;
+}
+.page_button span {
+	font-size: 80%;
+}
+.page_button input {
+	font-size: .8em;
+	border: blue;
+	color: gray;
+	background-color: rgba(222,222,222,0.3);
+	padding: 9px 19px;
+}
+.page_button input[name="Next"] {
+	color: black;
+}
+.footer {
+	text-align: center;
+	color: gray;
+}

@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<title>My blog</title>
 	</head>
 	<body>
 <!--nav section -->
-		<div class="nav">
-		<ul>
-			<li>我的博客</li>
-			<li>关于</li>
-			<li>信息</li>
-			<li>标签</li>
-			<li>维基</li>
-			<li>GitHub</li>
-		</ul>
+		<div class="container">
+			<h1><a href="#" title="我的博客">我的博客</a></h1>
+			<a href="#" title="关于">关于</a>
+			<a href="#" title="信息">信息</a>
+			<a href="#" title="维基">维基</a>
+			<a href="#" title="GitHub">GitHub</a>
 		</div>
 <!-- main section -->		
 		<div class="main">
@@ -22,7 +20,7 @@
 				<h2>文章转载出处<span>[置顶]</span></h2>
 				<time datetime="2017-01-01">2017年1月1日</time>
 				<p >
-					文章链接地址: <a href="https://github.com/qiu-deqing/FE-learning">https://github.com/qiu-deqing/FE-learning</a>
+					文章链接地址: <a href="https://github.com/qiu-deqing/FE-learning" title="文章地址">https://github.com/qiu-deqing/FE-learning</a>
 				</p>
 			</div>
 			<div class="common">
@@ -140,14 +138,16 @@
 			</div>
 		</div>
 <!-- page button -->		
-		<div class="page_button">
-			<input type="button" name="Prev" value="Prev">
+		<div>
+			<p class="page_button">
+			<input type="button" name="Prev" value="<<Prev">
 			<span>Page 1 of 3</span>
-			<input type="button" name="Next" value="Next">
+			<input type="button" name="Next" value="Next>>">
+			<p>
 		</div>
 <!-- footer section-->
-		<div class="footer">
-			<p>© 2017 Qinqj.</p>
-		</div>						
+		<small>
+			<p class="footer">© 2017 Qinqj.</p>
+		</samll>						
 	</body>
 </html>
